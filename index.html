@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beer Checker</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Beer Checker</h1>
@@ -12,13 +13,43 @@
         <p>기준: 500ml/2500w</p>
         <div class="row">
             <div class="col">
-                <label for="instML">ML</label>
+                <label for="instML">ML:</label>
             </div>
             <div class="col">
                 <input type="number" id="instML">
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <label for="instQTY">QTY:</label>
+            </div>
+            <div class="col">
+                <input type="number" id="instQTY">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="instWON">WON:</label>
+            </div>
+            <div class="col">
+                <input type="number" id="instWON">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" id="resultAction">Result</button>
+            </div>
+        </div>
     </form>
-    
+
+    <section class="result-sec">
+        <table>
+            <caption>Result</caption>
+            <tr>
+                <th>500ml기준/1캔당 가격</th>
+                <td><span class="resultWON">0</span>w</td>
+            </tr>
+        </table>
+    </section>
 </body>
 </html>
