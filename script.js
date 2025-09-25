@@ -4,5 +4,5 @@ window.onload = () => {
        // alert(btn);
     });
     const winw = window.innerWidth;
-    //alert(winw);
+    alert(winw);
 }
