@@ -3,6 +3,6 @@ window.onload = () => {
     btn.addEventListener('click', function(){
         alert(btn);
     });
-    const www = window.innerWidth;
-    alert(www);
+    const winw = window.innerWidth;
+    alert(winw);
 }
