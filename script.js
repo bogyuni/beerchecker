@@ -7,6 +7,7 @@ window.onload = () => {
        const standard = 500;
        const resultWON = document.querySelector('#resultWON');
        const oneCanToWon = WON / (ML * QTY / standard);
+       alert(oneCanToWon);
        resultWON.innerHTML = oneCanToWon;
     });
     //const winw = window.innerWidth;
